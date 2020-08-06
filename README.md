@@ -1,7 +1,7 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Gif Expert App
 SIMPLE APP TO SEARCH GIFS
+
+### LIVE https://francoder-web.github.io/react-gifexpertapp/
 
 USE GIPHY API
 
