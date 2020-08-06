@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Probando componente <GifExpertApp /> debe mostrar una lista de categorias 1`] = `
+<div
+  className="container"
+>
+  <h1
+    className="title"
+  >
+    Gif Expert App
+  </h1>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <hr />
+  <ol>
+    <GifGrid
+      category="sao"
+      key="sao"
+    />
+    <GifGrid
+      category="dragon ball"
+      key="dragon ball"
+    />
+  </ol>
+</div>
+`;
+
+exports[`Probando componente <GifExpertApp /> debe mostrarse correctamente 1`] = `
+<div
+  className="container"
+>
+  <h1
+    className="title"
+  >
+    Gif Expert App
+  </h1>
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <hr />
+  <ol>
+    <div
+      className="container"
+    >
+      <h2
+        className="subtitle animate__animated animate__pulse animate__infinite animate__slow"
+      >
+        Find your gifs!
+      </h2>
+      <Loader
+        className=""
+        color="#1e272e"
+        height={200}
+        style={Object {}}
+        timeout={0}
+        type="BallTriangle"
+        visible={true}
+        width={200}
+      />
+    </div>
+  </ol>
+</div>
+`;
