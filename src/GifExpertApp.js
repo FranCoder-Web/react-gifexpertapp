@@ -27,7 +27,11 @@ export const GifExpertApp = ({ defaultCategories = [] }) => {
 					</div>
 				) : (
 					categories.map((categorie) => (
-						<GifGrid key={categorie} category={categorie} />
+						<GifGrid
+							key={categorie}
+							category={categorie}
+							cleanCategory={setCategories}
+						/>
 					))
 				)}
 			</ol>

@@ -80,6 +80,7 @@ form {
 
 .card {
 	max-width: 300px;
+	min-width: 200px;
 	display: flex;
 	flex-direction: column;
 	border: 1px solid black;
@@ -99,14 +100,19 @@ form {
 }
 
 .card img {
-	max-height: 170px;
+	max-height: 200px;
 }
 
 .category {
+	display: flex;
+	justify-content: space-between;
 	background-color: #1e272e;
 	color: white;
 	padding: 20px;
 	margin-bottom: 10px;
+}
+.x-category {
+	cursor: pointer;
 }
 
 @media screen and (max-width: 600px) {
