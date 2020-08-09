@@ -6,6 +6,12 @@ exports[`Probando el componente <GifGrid /> debe mostrarse correctamente 1`] = `
     className="category"
   >
     Sao
+    <span
+      className="x-category"
+      onClick={[Function]}
+    >
+      X
+    </span>
   </h2>
   <Loader
     className=""

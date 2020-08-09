@@ -16,10 +16,12 @@ exports[`Probando componente <GifExpertApp /> debe mostrar una lista de categori
   <ol>
     <GifGrid
       category="sao"
+      cleanCategory={[Function]}
       key="sao"
     />
     <GifGrid
       category="dragon ball"
+      cleanCategory={[Function]}
       key="dragon ball"
     />
   </ol>
